@@ -18,8 +18,11 @@ codFunc int not null auto_increment,
 nomeFunc varchar(100) not null,
 emailFunc varchar(100),
 telCelFunc char(10),
+cpfFunc char(14),
+primary key(codFunc)
 );
 -- visualizando tabelas
 show tables;
 -- visualizando a estrutura das tabelas
 desc tbUsuarios;
+desc tbFuncionarios;
